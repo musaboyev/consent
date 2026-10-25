@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-24",
+  "source": "https://dev.meta.ai/docs/pricing-rate-limits",
+  "currency": "USD",
+  "text_per_million_tokens": {
+    "muse-spark-1.3": {"input": "1.25", "cached_input": "0.15", "output": "4.25"},
+    "muse-spark-1.2": {"input": "1.25", "cached_input": "0.15", "output": "4.25"},
+    "muse-spark-1.1": {"input": "1.25", "cached_input": "0.15", "output": "4.25"},
+    "muse-wonder-1.0": {"input": "4.00", "cached_input": "0.20", "output": "20.00"}
+  },
+  "audio_per_hour": {"muse-voice-transcribe-1.0": "0.18"},
+  "other_published_rates_not_currently_called": {
+    "muse-image-1.0_per_generated_image": "0.01",
+    "sam-3.1_per_segmented_image": "0.0025",
+    "sam-3.1_per_segmented_video_frame": "0.0002"
+  }
+}

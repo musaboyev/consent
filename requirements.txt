@@ -1,0 +1,12 @@
+mediapipe
+opencv-contrib-python
+fastapi
+uvicorn[standard]
+av
+sounddevice
+httpx
+python-dotenv
+websockets
+numpy
+scipy
+pytest

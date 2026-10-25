@@ -1,0 +1,232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A00000000000000000000017 /* ConsentLensBridge/ConsentLensBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000008 /* ConsentLensBridge/ConsentLensBridgeApp.swift */; };
+		A00000000000000000000018 /* ConsentLensBridge/FrameTransport.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00000000000000000000009 /* ConsentLensBridge/FrameTransport.swift */; };
+		A00000000000000000000024 /* MWDATCore in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000021 /* MWDATCore */; };
+		A00000000000000000000025 /* MWDATCamera in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000022 /* MWDATCamera */; };
+		A00000000000000000000026 /* MWDATMockDevice in Frameworks */ = {isa = PBXBuildFile; productRef = A00000000000000000000023 /* MWDATMockDevice */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A00000000000000000000008 /* ConsentLensBridge/ConsentLensBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentLensBridge/ConsentLensBridgeApp.swift; sourceTree = "<group>"; };
+		A00000000000000000000009 /* ConsentLensBridge/FrameTransport.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentLensBridge/FrameTransport.swift; sourceTree = "<group>"; };
+		A00000000000000000000010 /* ConsentLensBridge/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = ConsentLensBridge/Info.plist; sourceTree = "<group>"; };
+		A00000000000000000000011 /* ConsentLensBridge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ConsentLensBridge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00000000000000000000014 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000024 /* MWDATCore in Frameworks */,
+				A00000000000000000000025 /* MWDATCamera in Frameworks */,
+				A00000000000000000000026 /* MWDATMockDevice in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00000000000000000000003 = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000008 /* ConsentLensBridge/ConsentLensBridgeApp.swift */,
+				A00000000000000000000009 /* ConsentLensBridge/FrameTransport.swift */,
+				A00000000000000000000010 /* ConsentLensBridge/Info.plist */,
+				A00000000000000000000004 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A00000000000000000000004 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A00000000000000000000011 /* ConsentLensBridge.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A00000000000000000000005 /* ConsentLensBridge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00000000000000000000012 /* Build configuration list for PBXNativeTarget "ConsentLensBridge" */;
+			buildPhases = (
+				A00000000000000000000013 /* Sources */,
+				A00000000000000000000014 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ConsentLensBridge;
+			packageProductDependencies = (
+				A00000000000000000000021 /* MWDATCore */,
+				A00000000000000000000022 /* MWDATCamera */,
+				A00000000000000000000023 /* MWDATMockDevice */,
+			);
+			productName = ConsentLensBridge;
+			productReference = A00000000000000000000011 /* ConsentLensBridge.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00000000000000000000001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 2640;
+			};
+			buildConfigurationList = A00000000000000000000002 /* Build configuration list for PBXProject "ConsentLensBridge" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00000000000000000000003;
+			packageReferences = (
+				A00000000000000000000020 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */,
+			);
+			productRefGroup = A00000000000000000000004 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A00000000000000000000005 /* ConsentLensBridge */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00000000000000000000013 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00000000000000000000017 /* ConsentLensBridge/ConsentLensBridgeApp.swift in Sources */,
+				A00000000000000000000018 /* ConsentLensBridge/FrameTransport.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A00000000000000000000006 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		A00000000000000000000007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		A00000000000000000000015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ConsentLensBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.consentlens.bridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A00000000000000000000016 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ConsentLensBridge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.consentlens.bridge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00000000000000000000002 /* Build configuration list for PBXProject "ConsentLensBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000006 /* Debug */,
+				A00000000000000000000007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00000000000000000000012 /* Build configuration list for PBXNativeTarget "ConsentLensBridge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00000000000000000000015 /* Debug */,
+				A00000000000000000000016 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A00000000000000000000020 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/facebook/meta-wearables-dat-ios";
+			requirement = {
+				kind = exactVersion;
+				version = 1.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A00000000000000000000021 /* MWDATCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCore;
+		};
+		A00000000000000000000022 /* MWDATCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATCamera;
+		};
+		A00000000000000000000023 /* MWDATMockDevice */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A00000000000000000000020 /* XCRemoteSwiftPackageReference "meta-wearables-dat-ios" */;
+			productName = MWDATMockDevice;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A00000000000000000000001 /* Project object */;
+}
